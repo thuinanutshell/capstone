@@ -1,1 +1,17 @@
-# capstone
+# Understanding Vietnamese Linguistic Structures and Multimodal LLMs: A Comprehensive Analysis & Design Principles for Enhanced Multimodal Performance
+
+## Abstract
+This research investigates how Vietnamese linguistic features influence Multimodal Large Language Models' performance across audio tasks. While existing studies and open-sourced projects have prioritized data collection representing Vietnamese phonetic diversity (Vu et al., 2025; Pham et al., 2024; Dinh et al., 2024; Nguyen et al., 2023) and fine-tuning pre-trained models on new/larger Vietnamese datasets (Le et al., 2024; Truong et al., 2024) or more specialized datasets (Le-Duc, 2024), a systematic analysis of how specific Vietnamese linguistic characteristics affect model performance remains significantly unexplored.
+
+Our work addresses this gap by examining how tonal properties, syllable structures, and regional variations in Vietnamese impact model accuracy, processing efficiency, and generalization capabilities across speech recognition, sentiment analysis, and translation tasks. 
+
+We identify key linguistic challenges through comparative analysis and experiments with non-tonal languages (e.g., English) and propose targeted architectural modifications to improve Vietnamese audio processing in Multimodal LLMs. Coupled with the current developments in the quantity of datasets and fine-tuning techniques, we hope to provide a deeper understanding of language-specific factors affecting multilingual capabilities in foundation models and insights into how to make better informed architecture design decisions.
+
+## Project Description
+The central thesis of this project is that the performance of large language models on Vietnamese tasks - measured by accuracy and other standard metrics/benchmarks - is more significantly influenced by the language’s unique linguistic features than by limitations in available training data. In other words, I am curious about whether understanding the linguistic structures can actually help us use less data but still yield the same results. Following this thesis is a set of research questions I want to explore further. It is noteworthy that these are only the very high-level questions and will be further broken down into smaller ones.
+### Research Questions
+1. What are the linguistic features of the Vietnamese language that are different from English (the dominating language in the training set of the most powerful large language models) and similar to some languages of the Asian region? 
+2. How does being aware of the linguistic features help us understand why LLMs struggle to perform well on specific Vietnamese tasks?
+3. Suppose these features affect models’ performance. How can we make informed 1) design decisions to customize the current architectures (i.e., which layers to add and where?) and 2) what data types should we target to collect more for the training set rather than just collecting them randomly?
+4. In which part of the model (i.e., which neurons) is activated the most by a particular feature of the data, such as tone, syllable, etc.? Moreover, how can we trace this back to steer the models’ behavior to align with our preferences?
+5. What are the current benchmarks used to evaluate the performance of LLMs on the Vietnamese language? What are the limitations of those benchmarks and why?
