@@ -22,11 +22,20 @@ Next, we will need to open each proceeding link and collect the paper links on t
 
 ### Step 3: Open Each Paper Link & Collect Abstract
 
+The main content, including the title, authors, and abstract, is within the `div` element with the class name `col p-3`. So, we need to collect all the `h4` elements as the heading associated with the title, authors, and abstract. The second `h4` has the child element `i` that contains the actual content of the authors. The last `h4` has sibling elements `p` that contain the actual content of the abstract.
+
+<img width="1477" height="823" alt="Screenshot 2025-08-06 at 10 57 11 PM" src="https://github.com/user-attachments/assets/1569083b-6e59-4347-8bc3-28e79f37624e" />
+
+
 ## Data Analysis
 
 <img width="1200" height="600" alt="neurips_bar_plot" src="https://github.com/user-attachments/assets/5a2170da-fb1a-4207-b6fc-506d51dc642f" />
 
 **Figure 1**. *Number of accepted papers of each year's proceedings (1987-2024)*. The number of papers accepted has exploded, especially in the last 3 years starting from 2022, since LLM applications like ChatGPT gained tremendous popularity. The growth is exponential, and I guess the number of papers for the 2025 proceedings will be ~4000 or ~5000.
+
+<img width="1000" height="500" alt="neurips_word_cloud" src="https://github.com/user-attachments/assets/61b61c09-6849-4162-91ac-c7f8254cffb9" />
+
+**Figure 2**. A lot of effort seems to have gone into evaluating (benchmarking) the models, and it is not surprising that LLM is a central theme. Graphs, diffusion models, and representation learning are also popular themes. Agent seems to be an emerging topic in 2024 and now it has gained so much popularity in 2025.
 
 
 ## Resources
