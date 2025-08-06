@@ -9,15 +9,25 @@ Below is the main page of the NeurIPS Proceedings (https://papers.nips.cc/), whi
 
 <img src="./neurips_main.png">
 
-Notice that the list of all the proceeding links are within the element `div` with the class name `col-sm p-3`. Therefore, we need to first find this `div`. After that, we will find all the `li` elements within it and the `a` element inside the `li` element. 
+Notice that the list of all the proceeding links is within the element `div` with the class name `col-sm p-3`. Therefore, we need to first find this `div`. After that, we will find all the `li` elements within it and the `a` element inside the `li` element. 
 
 Then, extract the `href` attribute from the `a` tag. The link to each year's proceedings is the **joined URL** between the base URL (https://papers.nips.cc/) and the `href` value. For example: https://papers.nips.cc/paper_files/paper/2024
 
 ### Step 2: Open Each Proceeding Link & Collect Paper Links
+Next, we will need to open each proceeding link and collect the paper links on the proceeding page. All the paper links are within the `ul` element with the class name `paper-list`. As a result, we need to collect all the `href` of the `a` element under the `ul` parent element. After collecting all the paper links, we'll save the data into a CSV file in which each row is a paper link.
+
+<img width="1500" height="870" alt="Screenshot 2025-08-05 at 7 34 01 PM" src="https://github.com/user-attachments/assets/d3700782-3e74-4f08-8d30-3d9d2aec2445" />
+
 
 
 ### Step 3: Open Each Paper Link & Collect Abstract
 
 ## Data Analysis
+
+<img width="1200" height="600" alt="neurips_bar_plot" src="https://github.com/user-attachments/assets/5a2170da-fb1a-4207-b6fc-506d51dc642f" />
+
+**Figure 1**. *Number of accepted papers of each year's proceedings (1987-2024)*. The number of papers accepted has exploded, especially in the last 3 years starting from 2022, since LLM applications like ChatGPT gained tremendous popularity. The growth is exponential, and I guess the number of papers for the 2025 proceedings will be ~4000 or ~5000.
+
+
 ## Resources
 [1] https://realpython.com/python-web-scraping-practical-introduction/
