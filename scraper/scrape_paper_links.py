@@ -11,11 +11,18 @@ def extract_proceeding_links(filepath="./data/neurips_proceedings_links.csv"):
     """Reads proceeding links from CSV and pairs them with years."""
     with open(filepath, "r") as csv_file:
         csv_reader = csv.reader(csv_file)
+
+        # Each row is a list of single link, so we need to extract the value using row[0]
         links = [row[0] for row in csv_reader]
 
     years = list(range(2024, 1986, -1))  # descending from 2024 to 1987
     year_data = [
-        {"year": year, "proceeding_link": link, "paper_links": []}
+        {
+            "year": year, 
+            "proceeding_link": link, 
+            "paper_links": []
+        }
+        
         for year, link in zip(years, links[1:])  # skip header
     ]
 
