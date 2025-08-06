@@ -26,6 +26,8 @@ Next, we will need to open each proceeding link and collect the paper links on t
 
 <img width="1200" height="600" alt="neurips_bar_plot" src="https://github.com/user-attachments/assets/5a2170da-fb1a-4207-b6fc-506d51dc642f" />
 
+**Figure 1**. *Number of accepted papers of each year's proceedings (1987-2024)*. The number of papers accepted has exploded, especially in the last 3 years starting from 2022, since LLM applications like ChatGPT gained tremendous popularity. The growth is exponential, and I guess the number of papers for the 2025 proceedings will be ~4000 or ~5000.
+
 
 ## Resources
 [1] https://realpython.com/python-web-scraping-practical-introduction/
