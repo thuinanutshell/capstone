@@ -1,5 +1,5 @@
 # NeurIPIS Dataset (1987-2024)
-This project is developed out of curiosity. I'm curious about the number of papers accepted into NeurIPS over time and the most prominent topics each year. I will use `beautifulsoup` to scrape the abstract of all papers and implement some analyses like topic modeling or clustering to explore what's interesting about the data.
+This project is developed out of curiosity. I'm curious about the number of papers accepted into NeurIPS over time and the most prominent topics each year. I will use `beautifulsoup` to scrape the abstract of all papers and implement some analyses like topic modeling or clustering to explore what's interesting about the data. The total number of papers accepted is **24,780**
 
 ## Web Scraper Tutorial
 ### Step 1: Inspect & Collect Proceedings Links
