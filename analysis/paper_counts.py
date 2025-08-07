@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 def get_paper_counts():
     df = pd.read_csv("./data/neurips_papers.csv")
     counts = df["year"].value_counts().sort_index(ascending=False)
+    print(len(df))
     return counts.to_dict()
 
 
@@ -12,7 +13,7 @@ data = get_paper_counts()
 years = list(data.keys())
 counts = list(data.values())
 
-plt.figure(figsize=(12,6))
+plt.figure(figsize=(12, 6))
 plt.bar(years, counts)
 plt.xlabel("Year")
 plt.ylabel("Number of Papers")

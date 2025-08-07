@@ -106,6 +106,7 @@ def save_abstract_to_csv(data, filename):
 
 
 if __name__ == "__main__":
-    paper_links = extract_paper_links(target_year="2024")
-    results = collect_abstract(paper_links)
-    save_abstract_to_csv(results, filename="./data/neurips_abstract_2024.csv")
+    for year in tqdm(range(2023, 1986, -1)):
+        paper_links = extract_paper_links(target_year=str(year))
+        results = collect_abstract(paper_links)
+        save_abstract_to_csv(results, filename=f"./data/neurips_abstract_{year}.csv")
