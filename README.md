@@ -35,7 +35,17 @@ The main content, including the title, authors, and abstract, is within the `div
 
 <img width="1000" height="500" alt="neurips_word_cloud" src="https://github.com/user-attachments/assets/61b61c09-6849-4162-91ac-c7f8254cffb9" />
 
-**Figure 2**. *Word Cloud of 2024 Paper Abstracts* A lot of effort seems to have gone into evaluating (benchmarking) the models, and it is not surprising that LLM is a central theme. Graphs, diffusion models, and representation learning are also popular themes. Agent seems to be an emerging topic in 2024 and now it has gained so much popularity in 2025.
+**Figure 2**. *Word Cloud of 2024 Paper Abstracts*. A lot of effort seems to have gone into evaluating (benchmarking) the models, and it is not surprising that LLM is a central theme. Graphs, diffusion models, and representation learning are also popular themes. Agent seems to be an emerging topic in 2024, and now it has gained so much popularity in 2025.
+
+<img width="1000" height="500" alt="neurips_word_cloud_2023" src="https://github.com/user-attachments/assets/542f9a52-4d05-4610-8a65-268e55d7d413" />
+
+
+<img width="1000" height="500" alt="neurips_word_cloud_2022" src="https://github.com/user-attachments/assets/9cdf1e2d-0fff-4833-a97a-faa42b759c18" />
+
+<img width="1000" height="500" alt="neurips_word_cloud_2021" src="https://github.com/user-attachments/assets/e882cc44-2256-420a-80f3-09cf0b39ba9f" />
+
+<img width="1000" height="500" alt="neurips_word_cloud_2020" src="https://github.com/user-attachments/assets/63a31d94-adf0-4886-a063-43e0ba44bcf2" />
+
 
 
 ## Resources
